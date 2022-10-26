@@ -7,6 +7,6 @@ public class J01_variable_declaration {
         System.out.println("Warto¶æ zmiennej number " + number);
         number = 25;
         System.out.println("Warto¶æ zmiennej number po zmianie jej warto¶ci "+ number);
-        
+
     }
 }
