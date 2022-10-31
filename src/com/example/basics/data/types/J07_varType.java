@@ -7,7 +7,7 @@ public class J07_varType {
     }
 
     public static int add(int a, String b) {
-        var result = a + Integer.valueOf(b);
+        var result = a + Integer.parseInt(b);
         return result;
 
     }
