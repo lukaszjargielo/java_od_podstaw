@@ -7,7 +7,7 @@ public class J07_varType {
     }
 
     public static int add(int a, String b) {
-        var result = a + Integer.valueOf(b).intValue();
+        var result = a + Integer.valueOf(b);
         return result;
 
     }
