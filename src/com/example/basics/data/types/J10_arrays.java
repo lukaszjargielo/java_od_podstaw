@@ -19,6 +19,7 @@ public class J10_arrays {
         String strArr[] = new String[2];
         System.out.println("strArr[1]:" + strArr[1]);
         String namesArr[] = {"Ola", "ma", "kota"};
+        System.out.println("namesArr[0]:" + namesArr[0]);
 
     }
 }
