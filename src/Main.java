@@ -7,9 +7,8 @@ public class Main {
         String names[] = { "Ania", "Micha³", "Daniel", "Kasia", "Jan"};
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Write a number out of scope 0-4");
-        String str = reader.readLine();
-        int index = Integer.parseInt(str);
+        System.out.println("Write a number of array index, maximum value is:" + (names.length - 1));
+        int index = Integer.parseInt(reader.readLine());
         System.out.println("Wybrano numer " + index + " zawieraj±cy: " + names[index]);
 
     }
