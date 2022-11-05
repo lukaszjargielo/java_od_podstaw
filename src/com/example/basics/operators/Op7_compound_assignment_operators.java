@@ -11,6 +11,6 @@ public class Op7_compound_assignment_operators {
         a *= a;
         System.out.println(a);
         a %= 7;
-        System.out.println(a + " because 7 times 128 plus 4 equals 900  ");
+        System.out.println(a + " because 7 time s 128 plus 4 equals 900  ");
     }
 }
