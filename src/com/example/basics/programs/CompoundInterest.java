@@ -7,16 +7,18 @@ public class CompoundInterest {
 
         Scanner scanner = new Scanner(System.in);
 
-        double startCapital = 0;
-        double yearlyInterest = 0;
+        double startCapital = 0.0;
+        double yearlyInterest = 0.0;
         int numYears = 0;
 
         double finalCapital;
 
-        System.out.println("Enter the amount of start capital in format [ 20 $ -> 20.00]: " );
-             startCapital =  Double.valueOf(scanner.nextLine()).doubleValue();
+        System.out.println("Enter the amount of start capital: " );
+             //startCapital =  Double.valueOf(scanner.nextLine()).doubleValue();
+              startCapital = scanner.nextDouble();
         System.out.println("Enter yearly interest in format [5% -> 5]: ");
-            yearlyInterest = Double.valueOf(scanner.nextLine()).doubleValue();
+           // yearlyInterest = Double.valueOf(scanner.nextLine()).doubleValue();
+            yearlyInterest = scanner.nextDouble();
         System.out.println("Enter number of investment years ");
             numYears = scanner.nextInt();
 
