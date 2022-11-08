@@ -15,7 +15,8 @@ public class ConcatenationExample {
         String s5 = s1.concat(s2);
         System.out.println(s5);
 
-        String s6 = s2.concat(Integer.toString(i));
+        String s6 = s2.concat(
+                Integer.toString(i));
         System.out.println(s6);
     }
 }
