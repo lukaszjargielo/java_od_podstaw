@@ -1,8 +1,6 @@
 package com.example.basics.data.string_class;
 
-import java.util.Locale;
-
-public class Length_toLowerCase_toUpperCase_charAt {
+public class Functions_length_toLowerCase_toUpperCase_charAt {
     public static void main(String[] args) {
 
         String str = "You got it!";
