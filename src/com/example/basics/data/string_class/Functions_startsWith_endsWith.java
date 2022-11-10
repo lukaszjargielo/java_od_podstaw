@@ -27,5 +27,17 @@ public class Functions_startsWith_endsWith {
             String str = "We are the cham(We)pions!";
             System.out.println(str.startsWith("We",16));
         }
+        {
+            String str = "Lalabalala";
+            System.out.println(str.startsWith("la"));
+        }
+        {
+            String str = "Lalabalala";
+            System.out.println(str.startsWith("la",2));
+        }
+        {
+            String str = "Lalabalala";
+            System.out.println(str.endsWith("la"));
+        }
     }
 }
