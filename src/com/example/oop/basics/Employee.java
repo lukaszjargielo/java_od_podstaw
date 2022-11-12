@@ -5,6 +5,18 @@ public class Employee {
     String surname;
     String jobTitle;
 
+    public Employee() {
+        this.name = "unkown";
+        this.surname = "unknown";
+        this.jobTitle = "unkown";
+    }
+
+    public Employee(String name, String surname, String jobTitle) {
+        this.name = name;
+        this.surname = surname;
+        this.jobTitle = jobTitle;
+    }
+
     public void printInfo() {
         System.out.println(this.name + " " + this.surname
                         + " " + this.jobTitle);
@@ -20,7 +32,11 @@ public class Employee {
         Employee e2 = new Employee();
         e2.name = "Natalia";
         e2.surname = "Jargielo";
-        e2.jobTitle = "graphic artist";
+        e2.jobTitle = "Graphic artist";
         e2.printInfo();
+
+        Employee e3 = new Employee("Alicja", "Jargielo",
+                "Pediatrician");
+        e3.printInfo();
     }
 }
