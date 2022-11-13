@@ -2,7 +2,7 @@ public class Car {
     String brand;
     String model;
     String color;
-    String carColor[] = {"white", "black", "red"};
+    //String carColor[] = {"white", "black", "red"};
 
     public Car() {
         this.brand = "Volkswagen";
@@ -10,16 +10,16 @@ public class Car {
         this.color = "indefinite";
     }
 
-    public Car(String brand, String model) {
+    public Car(String brand, String model, String color) {
         this.brand = brand;
         this.model = model;
-//        this.color = this.getColor();
+        this.color = color;
 
     }
 
     public String getColor() {
-        int c = (int) (Math.floor(Math.random() * 3));
-        return this.color = carColor[c];
+//        int c = (int) (Math.floor(Math.random() * 3));
+        return this.color; //= carColor[c];
 
     }
 
