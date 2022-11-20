@@ -11,6 +11,6 @@ public class AbstractExample {
         Person person = manager;
         System.out.println(person.getName());
 
-//        Person person1 = new Person(); not allowed to intiantiate abstract class Person!
+//        Person person1 = new Person(); not allowed to intiantiate abstract class Person !
     }
 }
