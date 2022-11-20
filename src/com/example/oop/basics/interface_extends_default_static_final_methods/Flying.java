@@ -1,0 +1,16 @@
+package com.example.oop.basics.interface_extends_default_static_final_methods;
+
+public interface Flying {
+    public float DEFAULT_WINGSPAN = 0.7f;
+    public void fly();
+    public default void flyHigher() {
+        System.out.println("Flying higher");
+    }
+    public default float getWingspan() {
+        return Flying.DEFAULT_WINGSPAN;
+    }
+
+    public static int getDefaultNumWings(){
+        return 2;
+    }
+}
