@@ -2,6 +2,7 @@ package com.example.collections;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.ListIterator;
 
 public class ArrayListBasics {
     public static void main(String[] args) {
@@ -58,6 +59,15 @@ public class ArrayListBasics {
         arrStr.remove(1);
         arrStr.add("Michael");
 
+        System.out.println("We use ListIterator now");
+        System.out.println(arrStr.size());
+        ListIterator<String> listIterator = arrStr.listIterator(arrStr.size());
+        while(listIterator.hasPrevious()) {
+            System.out.println(listIterator.previous());
+            listIterator.set("String swap");
+        }
+
+        System.out.println("We use for-each loop now");
         for (String s1 : arrStr
         ) {
             System.out.println(s1);
@@ -84,6 +94,7 @@ public class ArrayListBasics {
         System.out.println(arrStr);
         Collections.sort(arrStr);
         System.out.println(arrStr);
+
 
         arrStr.remove(0);
         System.out.println(arrStr);
